@@ -9,6 +9,19 @@ It is inspired from:
 * [GitHub - ymdevs/Web-Extension-Starter: Typescript, React, Redux, Styled-Component and Webpack based sample extension boilerplate. Runs on Chrome and Firefox. Sample chrome extension.](https://github.com/ymdevs/Web-Extension-Starter)
 
 It allows the use of npm dependencies. As an example d3-selection and rambda are included.
+It also allows hot reload in Firefox.
+
+# Details
+Implements:
+* webpack
+    * less-loader (style and css)
+    * babel-loader
+    * webpack resolve
+* babel
+    * optional-chaining
+    * preset-env
+* eslint
+    * airbnb-base (and some personnal tweak)
 
 
 # Usage
